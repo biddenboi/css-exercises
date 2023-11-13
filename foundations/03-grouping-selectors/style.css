@@ -1,0 +1,14 @@
+button {
+    border-radius: 0;
+    font-size:30px;
+}
+
+#button1 {
+    background-color: black;
+    color:white;
+}
+
+#button2 {
+    color:black;
+    background-color: yellow;
+}
