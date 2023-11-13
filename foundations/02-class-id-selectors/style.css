@@ -1,0 +1,20 @@
+* {
+    font-family:sans-serif;
+}
+
+.large {
+    font-size:24px;
+}
+.red_bkg {
+    background-color:rgba(243, 13, 13, 0.428);
+}
+
+#n_1 {
+    color: blue;
+    font-size:36px;
+}
+
+#n_2 {
+    font-weight:bold;
+    background-color: rgba(10, 246, 14, 0.559);
+}
