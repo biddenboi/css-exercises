@@ -12,7 +12,7 @@ img {
 }
 
 button {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;  
   border: none;
   border-radius: 8px;
   background: #eee;
@@ -24,4 +24,66 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* my solution */
+li {
+  list-style-type:none;
+  text-decoration:none;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+.header,
+.right-links,
+.left-links,
+.footer,
+.content {
+  display:flex;
+}
+
+.header,
+.footer {
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+}
+
+
+.right-links,
+.left-links {
+  gap:8px;
+}
+
+
+.content {
+  flex: 1;/*fills remaining space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+
+}
+
+a {
+  color:black;
+  text-decoration:none;
+}
+
+button {
+  padding:7.5px;
 }
